@@ -1,8 +1,8 @@
-import Avatar from './avatar'
-import DateFormater from './date-formater'
-import CoverImage from './cover-image'
+import Avatar from '../atoms/avatar'
+import DateFormater from '../atoms/date-formater'
+import CoverImage from '../molecules/cover-image'
 import Link from 'next/link'
-import Author from '../types/author'
+import Author from '../../types/author'
 
 type Props = {
   title: string

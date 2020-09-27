@@ -1,6 +1,6 @@
-import Alert from './alert'
+import Alert from '../atoms/alert'
 import Footer from './footer'
-import Meta from './meta'
+import Meta from '../molecules/meta'
 
 type Props = {
   preview?: boolean
